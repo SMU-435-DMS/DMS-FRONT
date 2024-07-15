@@ -1,3 +1,4 @@
+
 import React from "react";
 import { KeyboardAvoidingView, ScrollView, Platform } from "react-native";
 import SignUpForm from "../components/signup/signupform/SignUpForm";
@@ -15,5 +16,6 @@ function SignUpScreen({ navigation }) {
     </KeyboardAvoidingView>
   );
 }
+
 
 export default SignUpScreen;
