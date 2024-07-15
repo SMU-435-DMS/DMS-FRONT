@@ -54,6 +54,42 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     paddingRight: 50,
   },
+  button: {
+    backgroundColor: "#8fb0cd",
+    padding: 15,
+    borderRadius: 5,
+    alignItems: "center",
+    alignSelf: "center",
+    width: 100,
+  },
+  buttonText: {
+    color: "#fff",
+    fontWeight: "bold",
+  },
+  addressButton: {
+    height: 35,
+    width: 84,
+    borderColor: "gray",
+    borderWidth: 1,
+    borderRadius: 5,
+    marginVertical: 8,
+    justifyContent: "center",
+    alignItems: "center",
+    marginBottom: 10,
+    backgroundColor: "#9999",
+  },
+  addressButtonText: {
+    color: "black",
+  },
+  addressText: {
+    backgroundColor: "#f9f9f9",
+    borderColor: "#ccc",
+    borderWidth: 1,
+    borderRadius: 5,
+    paddingVertical: 10,
+    height: 35,
+    color: "black",
+  },
 });
 
 export default styles;
